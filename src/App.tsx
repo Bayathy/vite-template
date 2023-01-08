@@ -1,11 +1,12 @@
 import {css} from "@emotion/react";
+import {Button} from "./components/Button";
 const style = css`
   color: hotpink;
 `
 
 function App() {
   return (
-      <p css={style}>test</p>
+      <Button/>
   )
 }
 
