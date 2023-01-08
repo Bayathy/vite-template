@@ -1,13 +1,7 @@
-import {css} from "@emotion/react";
-import {Button} from "./components/Button";
-const style = css`
-  color: hotpink;
-`
+import { Button } from "./components/Button";
 
 function App() {
-  return (
-      <Button/>
-  )
+  return <Button />;
 }
 
-export default App
+export default App;
